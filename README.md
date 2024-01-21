@@ -22,7 +22,7 @@ To get started with this tutorial series, follow these steps:
 
 1. **Clone the Repository:**
    
-   git clone https://github.com/belie4u/E-commerce-powered-by-Django-Oscar.git)https://github.com/belie4u/E-commerce-powered-by-Django-Oscar.git
+   git clone https://github.com/belie4u/E-commerce-powered-by-Django-Oscar.git
 
 ## Switch to the Master Branch
 
