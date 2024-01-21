@@ -1,0 +1,4 @@
+# Exclude virtual environment
+oscar/
+# Exclude db
+db.sqlite
