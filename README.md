@@ -5,7 +5,6 @@ Welcome to the Django Oscar Ecommerce Tutorial Series! This series focuses on gu
 ## Table of Contents
 - [Introduction](#introduction)
 - [Getting Started](#getting-started)
-- [Switch to the Master Branch](#Switch-to-the-Master-Branch)
 - [Tutorial Chapters](#tutorial-chapters)
 - [Contributing](#contributing)
 
@@ -30,15 +29,6 @@ To get started with this tutorial series, follow these steps:
    ```bash
    git clone tutorial-part-1->3 https://github.com/belie4u/E-commerce-powered-by-Django-Oscar.git
 
-
-
-3 **Explore Tutorial Branches:**
-   
-Each tutorial chapter is available in a separate branch. To explore a specific chapter, switch to the corresponding branch:
-
-    git checkout tutorial-part-1->3
-
-Repeat this step for each tutorial part.
 
 ## Tutorial Chapters
 
