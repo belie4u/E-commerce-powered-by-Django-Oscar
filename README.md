@@ -1,0 +1,49 @@
+# Django Oscar Ecommerce Tutorial Series
+
+Welcome to the Django Oscar Ecommerce Tutorial Series! This series focuses on guiding you through the process of creating a powerful ecommerce web app using Django Oscar.
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Getting Started](#getting-started)
+- [Switch to the Master Branch](#Switch-to-the-Master-Branch)
+- [Tutorial Chapters](#tutorial-chapters)
+- [Contributing](#contributing)
+
+
+
+## Introduction
+
+This tutorial series is hosted on YouTube and aims to provide a step-by-step guide on building a feature-rich ecommerce web application with Django Oscar. 
+Each chapter covers specific aspects of the development process, helping you understand and implement key functionalities.
+
+## Getting Started
+
+To get started with this tutorial series, follow these steps:
+
+1. **Clone the Repository:**
+   
+   ```bash
+   git clone https://github.com/belie4u/E-commerce-powered-by-Django-Oscar.git
+
+2. **Clone the Based on Tutorial branches :**
+   
+   ```bash
+   git clone Part-4-categories-solr-facets https://github.com/belie4u/E-commerce-powered-by-Django-Oscar.git
+
+## Tutorial Chapters
+
+**Part 1: Setting Up the Project**
+https://youtu.be/97ISUkx7Xzo
+
+**Part 2: Modelling the catalogue**
+https://youtu.be/cjZXiL1Mm3A
+
+**Part 3: Customizing Templates**
+https://youtu.be/Sw7R51D5-NM
+
+**Part 4: Solr for Advanced Category & Facet Filtering**
+https://youtu.be/i8Xsb3Es04Y
+
+**Contributing**
+If you find issues, have suggestions, or want to contribute to this tutorial series, feel free to open an issue or submit a pull request. 
+Contributions are welcome!
