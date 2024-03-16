@@ -1,0 +1,64 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<title>Header Spaceship Variant One — Red Parts</title>
+	<link rel="icon" type="image/png" href="{% static 'images/favicon.png' %}"><!-- fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i"><!-- css -->
+	<link rel="stylesheet" href="{% static 'vendor/bootstrap/css/bootstrap.css' %}">
+	<link rel="stylesheet" href="{% static 'vendor/owl-carousel/assets/owl.carousel.min.css' %}">
+	<link rel="stylesheet" href="{% static 'vendor/photoswipe/photoswipe.css' %}">
+	<link rel="stylesheet" href="{% static 'vendor/photoswipe/default-skin/default-skin.css' %}">
+	<link rel="stylesheet" href="{% static 'vendor/select2/css/select2.min.css' %}">
+	<link rel="stylesheet" href="{% static 'css/style.css' %}">
+	<link rel="stylesheet" href="{% static 'css/style.header-spaceship-variant-one.css' %}" media="(min-width: 1200px)">
+	<link rel="stylesheet" href="{% static 'css/style.mobile-header-variant-one.css' %}" media="(max-width: 1199px)">
+	<!-- font - fontawesome -->
+	<link rel="stylesheet" href="{% static 'vendor/fontawesome/css/all.min.css' %}">
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-97489509-8"></script>
+	<script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag("js", new Date()); gtag("config", "UA-97489509-8");</script>
+</head>
+
+<body><!-- site -->
+	<div class="site">
+		<!-- site__mobile-header -->
+		{% include "components/site__mobile-header.html" %}
+
+		<!-- site__mobile-header / end -->
+
+		<!-- site__header -->
+		{% include "components/site__header.html" %}
+		<!-- site__header / end -->
+		<!-- site__body -->
+		<div class="site__body">
+			<div class="block-space block-space--layout--divider-lg"></div>
+			<div class="container text-center py-5 my-5 text-muted">Header spaceship variant one</div>
+			<div class="block-space block-space--layout--divider-lg"></div>
+		</div><!-- site__body / end -->
+		<!-- site__footer -->
+		{% include "components/site__footer.html" %}
+		<!-- site__footer / end -->
+	</div><!-- site / end -->
+	<!-- mobile-menu -->
+	{% include "components/mobile-menu.html" %}
+	<!-- mobile-menu / end -->
+
+	{% include "components/models.html" %}
+
+	<!-- scripts -->
+	<script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+	<script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+	<script src="{% static 'vendor/owl-carousel/owl.carousel.min.js' %}"></script>
+	<script src="{% static 'vendor/nouislider/nouislider.min.js' %}"></script>
+	<script src="{% static 'vendor/photoswipe/photoswipe.min.js' %}"></script>
+	<script src="{% static 'vendor/photoswipe/photoswipe-ui-default.min.js' %}"></script>
+	<script src="{% static 'vendor/select2/js/select2.min.js' %}"></script>
+	<script src="{% static 'js/number.js' %}"></script>
+	<script src="{% static 'js/main.js' %}"></script>
+</body>
+
+</html>
