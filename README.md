@@ -25,11 +25,14 @@ To get started with this tutorial series, follow these steps:
    ```bash
    git clone https://github.com/belie4u/E-commerce-powered-by-Django-Oscar.git
 
-## Switch to the Master Branch
-
-   **Explore the Code:**
+1. **Clone the Repository:**
    
-Take a look at the master branch to understand the initial setup and structure of the project.
+   ```bash
+   git clone tutorial-part-1->3 https://github.com/belie4u/E-commerce-powered-by-Django-Oscar.git
+
+   do the same for all branches you want to clone 
+
+
 
    **Explore Tutorial Branches:**
    
