@@ -145,7 +145,7 @@ TEMPLATES = [
                 "oscar.apps.communication.notifications.context_processors.notifications",
                 "oscar.core.context_processors.metadata",
                 "redpart.context_processors.oscar_shop_tagline",
-
+                
             ],
         },
     },

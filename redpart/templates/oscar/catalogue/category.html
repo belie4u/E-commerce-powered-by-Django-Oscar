@@ -1,0 +1,63 @@
+{% extends "oscar/catalogue/browse.html" %}
+{% load static %}
+{% block breadcrumb %}
+<!-- breadcrumb start -->
+<div class="block-header block-header--has-breadcrumb block-header--has-title">
+    <div class="container">
+        <div class="block-header__body">
+            <nav class="breadcrumb block-header__breadcrumb" aria-label="breadcrumb">
+                <ol class="breadcrumb__list">
+                    <li class="breadcrumb__spaceship-safe-area" role="presentation"></li>
+                    <li class="breadcrumb__item breadcrumb__item--parent breadcrumb__item--first"><a
+                            href="{{homepage_url}}" class="breadcrumb__item-link">Home</a></li>
+
+                    {% for category in category.get_ancestors %}
+                    <li class="breadcrumb__item breadcrumb__item--parent"><a href="{{category.get_absolute_url}}"
+                            class="breadcrumb__item-link">{{category.name}}</a>
+
+                    </li>
+                    {% endfor %}
+                    <li class="breadcrumb__item breadcrumb__item--parent"><a href="{{category.get_absolute_url}}"
+                            class="breadcrumb__item-link">{{category.name}}</a>
+
+                    </li>
+                    <li class="breadcrumb__title-safe-area" role="presentation"></li>
+                </ol>
+            </nav>
+            <h1 class="block-header__title">{{category.name}}</h1>
+
+            <div class="block">
+                <div class="categories-list categories-list--layout--columns-3-sidebar">
+                    <ul class="categories-list__body">
+                        {% for category in category.get_ancestors %}
+                        <li class="categories-list__item"><a href="{{ category.get_absolute_url}}">
+                                {% if category.image %}
+                                <div class="image image--type--category">
+                                    <div class="image__body"><img class="image__tag" src="{{category.image.url}}"
+                                            alt=""></div>
+                                </div>
+                                {% else %}
+                                <div class="image image--type--category">
+                                    <div class="image__body"><img class="image__tag"
+                                            src="{% static 'oscar/img/image_not_found.jpg' %}" alt=""></div>
+                                </div>
+                                {% endif %}
+                                <div class="categories-list__item-name">{{category.name }}</div>
+                            </a>
+
+                        </li>
+                        <li class="categories-list__divider"></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            <div class="block-space block-space--layout--divider-nl"></div>
+        </div>
+    </div>
+</div>
+<!-- breadcrumb end -->
+{% endblock %}
+
+{% block layout %}
+{{block.super}}
+{% endblock %}
