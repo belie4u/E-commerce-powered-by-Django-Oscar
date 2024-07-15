@@ -1,0 +1,2 @@
+# Exclude db
+db.sqlite

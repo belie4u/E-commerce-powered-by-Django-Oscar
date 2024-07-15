@@ -1,0 +1,22 @@
+{% load currency_filters %}
+
+{% load purchase_info_tags %}
+
+
+{% purchase_info_for_product request product as session %}
+
+
+
+<div class="product-card__prices">
+    {% if session.price.exists %}
+    <div class="product-card__price product-card__price--current">
+        {% if session.price.excl_tax == 0 %}
+        Free
+        {% elif session.price.is_tax_known %}
+        {{ session.price.incl_tax|currency:session.price.currency }}
+        {% else %}
+        {{ session.price.excl_tax|currency:session.price.currency }}
+        {% endif %}
+    </div>
+    {% endif %}
+</div>
