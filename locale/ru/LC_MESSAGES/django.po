@@ -1,0 +1,1745 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-16 15:19+0300\n"
+"PO-Revision-Date: 2024-08-15 13:12+0000\n"
+"Last-Translator:   <byiringiro4u@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
+
+#: .\apps\basket\forms.py:9
+msgid "Select currency"
+msgstr ""
+
+#: .\apps\basket\middleware.py:60
+msgid ""
+"We have merged a basket from a previous session . it might have chenged "
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\_termui_impl.py:518
+#, python-brace-format
+msgid "{editor}: Editing failed"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\_termui_impl.py:522
+#, python-brace-format
+msgid "{editor}: Editing failed: {e}"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\core.py:1120
+msgid "Aborted!"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\core.py:1309
+#: .\oscar\Lib\site-packages\click\decorators.py:559
+msgid "Show this message and exit."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\core.py:1340
+#: .\oscar\Lib\site-packages\click\core.py:1370
+#, python-brace-format
+msgid "(Deprecated) {text}"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\core.py:1387
+msgid "Options"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\core.py:1413
+#, python-brace-format
+msgid "Got unexpected extra argument ({args})"
+msgid_plural "Got unexpected extra arguments ({args})"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\oscar\Lib\site-packages\click\core.py:1429
+msgid "DeprecationWarning: The command {name!r} is deprecated."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\core.py:1636
+msgid "Commands"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\core.py:1668
+msgid "Missing command."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\core.py:1746
+msgid "No such command {name!r}."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\core.py:2310
+msgid "Value must be an iterable."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\core.py:2331
+#, python-brace-format
+msgid "Takes {nargs} values but 1 was given."
+msgid_plural "Takes {nargs} values but {len} were given."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\oscar\Lib\site-packages\click\core.py:2778
+#, python-brace-format
+msgid "env var: {var}"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\core.py:2808
+msgid "(dynamic)"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\core.py:2821
+#, python-brace-format
+msgid "default: {default}"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\core.py:2834
+msgid "required"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\decorators.py:465
+#, python-format
+msgid "%(prog)s, version %(version)s"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\decorators.py:528
+msgid "Show the version and exit."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\exceptions.py:44
+#: .\oscar\Lib\site-packages\click\exceptions.py:80
+#, python-brace-format
+msgid "Error: {message}"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\exceptions.py:72
+#, python-brace-format
+msgid "Try '{command} {option}' for help."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\exceptions.py:121
+#, python-brace-format
+msgid "Invalid value: {message}"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\exceptions.py:123
+#, python-brace-format
+msgid "Invalid value for {param_hint}: {message}"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\exceptions.py:179
+msgid "Missing argument"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\exceptions.py:181
+msgid "Missing option"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\exceptions.py:183
+msgid "Missing parameter"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\exceptions.py:185
+#, python-brace-format
+msgid "Missing {param_type}"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\exceptions.py:192
+#, python-brace-format
+msgid "Missing parameter: {param_name}"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\exceptions.py:212
+#, python-brace-format
+msgid "No such option: {name}"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\exceptions.py:224
+#, python-brace-format
+msgid "Did you mean {possibility}?"
+msgid_plural "(Possible options: {possibilities})"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\oscar\Lib\site-packages\click\exceptions.py:262
+msgid "unknown error"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\exceptions.py:269
+msgid "Could not open file {filename!r}: {message}"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\parser.py:231
+msgid "Argument {name!r} takes {nargs} values."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\parser.py:413
+msgid "Option {name!r} does not take a value."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\parser.py:474
+msgid "Option {name!r} requires an argument."
+msgid_plural "Option {name!r} requires {nargs} arguments."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\oscar\Lib\site-packages\click\shell_completion.py:319
+msgid "Shell completion is not supported for Bash versions older than 4.4."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\shell_completion.py:326
+msgid "Couldn't detect Bash version, shell completion is not supported."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\termui.py:158
+msgid "Repeat for confirmation"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\termui.py:174
+msgid "Error: The value you entered was invalid."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\termui.py:176
+#, python-brace-format
+msgid "Error: {e.message}"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\termui.py:187
+msgid "Error: The two entered values do not match."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\termui.py:243
+msgid "Error: invalid input"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\termui.py:773
+msgid "Press any key to continue..."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\types.py:266
+#, python-brace-format
+msgid ""
+"Choose from:\n"
+"\t{choices}"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\types.py:298
+msgid "{value!r} is not {choice}."
+msgid_plural "{value!r} is not one of {choices}."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\oscar\Lib\site-packages\click\types.py:392
+msgid "{value!r} does not match the format {format}."
+msgid_plural "{value!r} does not match the formats {formats}."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\oscar\Lib\site-packages\click\types.py:414
+msgid "{value!r} is not a valid {number_type}."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\types.py:470
+#, python-brace-format
+msgid "{value} is not in the range {range}."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\types.py:611
+msgid "{value!r} is not a valid boolean."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\types.py:635
+msgid "{value!r} is not a valid UUID."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\types.py:822
+msgid "file"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\types.py:824
+msgid "directory"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\types.py:826
+msgid "path"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\types.py:877
+msgid "{name} {filename!r} does not exist."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\types.py:886
+msgid "{name} {filename!r} is a file."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\types.py:894
+#, python-brace-format
+msgid "{name} '{filename}' is a directory."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\types.py:903
+msgid "{name} {filename!r} is not readable."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\types.py:912
+msgid "{name} {filename!r} is not writable."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\types.py:921
+msgid "{name} {filename!r} is not executable."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\click\types.py:988
+#, python-brace-format
+msgid "{len_type} values are required, but {len_value} was given."
+msgid_plural "{len_type} values are required, but {len_value} were given."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\oscar\Lib\site-packages\django\contrib\messages\apps.py:15
+msgid "Messages"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\contrib\sitemaps\apps.py:8
+msgid "Site Maps"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\contrib\staticfiles\apps.py:9
+msgid "Static Files"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\contrib\syndication\apps.py:7
+msgid "Syndication"
+msgstr ""
+
+#. Translators: String used to replace omitted page numbers in elided page
+#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
+#: .\oscar\Lib\site-packages\django\core\paginator.py:30
+msgid "…"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\core\paginator.py:50
+msgid "That page number is not an integer"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\core\paginator.py:52
+msgid "That page number is less than 1"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\core\paginator.py:54
+msgid "That page contains no results"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\core\validators.py:22
+msgid "Enter a valid value."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\core\validators.py:104
+#: .\oscar\Lib\site-packages\django\forms\fields.py:752
+msgid "Enter a valid URL."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\core\validators.py:165
+msgid "Enter a valid integer."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\core\validators.py:176
+msgid "Enter a valid email address."
+msgstr ""
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: .\oscar\Lib\site-packages\django\core\validators.py:259
+msgid ""
+"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\core\validators.py:267
+msgid ""
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\core\validators.py:279
+#: .\oscar\Lib\site-packages\django\core\validators.py:287
+#: .\oscar\Lib\site-packages\django\core\validators.py:316
+msgid "Enter a valid IPv4 address."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\core\validators.py:296
+#: .\oscar\Lib\site-packages\django\core\validators.py:317
+msgid "Enter a valid IPv6 address."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\core\validators.py:308
+#: .\oscar\Lib\site-packages\django\core\validators.py:315
+msgid "Enter a valid IPv4 or IPv6 address."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\core\validators.py:351
+msgid "Enter only digits separated by commas."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\core\validators.py:357
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\core\validators.py:392
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\core\validators.py:401
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\core\validators.py:410
+#, python-format
+msgid "Ensure this value is a multiple of step size %(limit_value)s."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\core\validators.py:420
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\oscar\Lib\site-packages\django\core\validators.py:438
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\oscar\Lib\site-packages\django\core\validators.py:461
+#: .\oscar\Lib\site-packages\django\forms\fields.py:347
+#: .\oscar\Lib\site-packages\django\forms\fields.py:386
+msgid "Enter a number."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\core\validators.py:463
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\oscar\Lib\site-packages\django\core\validators.py:468
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\oscar\Lib\site-packages\django\core\validators.py:473
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\oscar\Lib\site-packages\django\core\validators.py:544
+#, python-format
+msgid ""
+"File extension “%(extension)s” is not allowed. Allowed extensions are: "
+"%(allowed_extensions)s."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\core\validators.py:605
+msgid "Null characters are not allowed."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\base.py:1423
+#: .\oscar\Lib\site-packages\django\forms\models.py:893
+msgid "and"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\base.py:1425
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\constraints.py:17
+#, python-format
+msgid "Constraint “%(name)s” is violated."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:128
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:129
+msgid "This field cannot be null."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:130
+msgid "This field cannot be blank."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:131
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr ""
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or
+#. 'month'. Eg: "Title must be unique for pub_date year"
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:135
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:173
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:1094
+#, python-format
+msgid "“%(value)s” value must be either True or False."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:1095
+#, python-format
+msgid "“%(value)s” value must be either True, False, or None."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:1097
+msgid "Boolean (Either True or False)"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:1147
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:1149
+msgid "String (unlimited)"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:1253
+msgid "Comma-separated integers"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:1354
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:1358
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:1493
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:1362
+msgid "Date (without time)"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:1489
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
+"uuuuuu]][TZ] format."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:1497
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:1502
+msgid "Date (with time)"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:1626
+#, python-format
+msgid "“%(value)s” value must be a decimal number."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:1628
+msgid "Decimal number"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:1789
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
+"uuuuuu] format."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:1793
+msgid "Duration"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:1845
+msgid "Email address"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:1870
+msgid "File path"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:1948
+#, python-format
+msgid "“%(value)s” value must be a float."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:1950
+msgid "Floating point number"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:1990
+#, python-format
+msgid "“%(value)s” value must be an integer."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:1992
+msgid "Integer"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:2088
+msgid "Big (8 byte) integer"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:2105
+msgid "Small integer"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:2113
+msgid "IPv4 address"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:2144
+msgid "IP address"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:2237
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:2238
+#, python-format
+msgid "“%(value)s” value must be either None, True or False."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:2240
+msgid "Boolean (Either True, False or None)"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:2291
+msgid "Positive big integer"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:2306
+msgid "Positive integer"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:2321
+msgid "Positive small integer"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:2337
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:2373
+msgid "Text"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:2448
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:2452
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:2456
+#: .\oscar\Lib\site-packages\haystack\templates\panels\haystack.html:8
+msgid "Time"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:2564
+msgid "URL"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:2588
+msgid "Raw binary data"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:2653
+#, python-format
+msgid "“%(value)s” is not a valid UUID."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\__init__.py:2655
+msgid "Universally unique identifier"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\files.py:232
+msgid "File"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\files.py:393
+#: .\redpart\templates\oscar\catalogue\browse.html:161
+msgid "Image"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\json.py:26
+msgid "A JSON object"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\json.py:28
+msgid "Value must be valid JSON."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\related.py:919
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r does not exist."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\related.py:921
+msgid "Foreign Key (type determined by related field)"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\related.py:1212
+msgid "One-to-one relationship"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\related.py:1269
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\related.py:1271
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\db\models\fields\related.py:1319
+msgid "Many-to-many relationship"
+msgstr ""
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to the label
+#: .\oscar\Lib\site-packages\django\forms\boundfield.py:184
+msgid ":?.!"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\forms\fields.py:91
+msgid "This field is required."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\forms\fields.py:298
+msgid "Enter a whole number."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\forms\fields.py:467
+#: .\oscar\Lib\site-packages\django\forms\fields.py:1241
+msgid "Enter a valid date."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\forms\fields.py:490
+#: .\oscar\Lib\site-packages\django\forms\fields.py:1242
+msgid "Enter a valid time."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\forms\fields.py:517
+msgid "Enter a valid date/time."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\forms\fields.py:551
+msgid "Enter a valid duration."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\forms\fields.py:552
+#, python-brace-format
+msgid "The number of days must be between {min_days} and {max_days}."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\forms\fields.py:621
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\forms\fields.py:622
+msgid "No file was submitted."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\forms\fields.py:623
+msgid "The submitted file is empty."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\forms\fields.py:625
+#, python-format
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\oscar\Lib\site-packages\django\forms\fields.py:630
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\forms\fields.py:694
+#: .\oscar\Lib\site-packages\sorl\thumbnail\fields.py:43
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\forms\fields.py:857
+#: .\oscar\Lib\site-packages\django\forms\fields.py:949
+#: .\oscar\Lib\site-packages\django\forms\models.py:1566
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\forms\fields.py:951
+#: .\oscar\Lib\site-packages\django\forms\fields.py:1070
+#: .\oscar\Lib\site-packages\django\forms\models.py:1564
+msgid "Enter a list of values."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\forms\fields.py:1071
+msgid "Enter a complete value."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\forms\fields.py:1310
+msgid "Enter a valid UUID."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\forms\fields.py:1340
+msgid "Enter a valid JSON."
+msgstr ""
+
+#. Translators: This is the default suffix added to form field labels
+#: .\oscar\Lib\site-packages\django\forms\forms.py:98
+msgid ":"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\forms\forms.py:244
+#: .\oscar\Lib\site-packages\django\forms\forms.py:328
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\forms\formsets.py:63
+#, python-format
+msgid ""
+"ManagementForm data is missing or has been tampered with. Missing fields: "
+"%(field_names)s. You may need to file a bug report if the issue persists."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\forms\formsets.py:67
+#, python-format
+msgid "Please submit at most %(num)d form."
+msgid_plural "Please submit at most %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\oscar\Lib\site-packages\django\forms\formsets.py:72
+#, python-format
+msgid "Please submit at least %(num)d form."
+msgid_plural "Please submit at least %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\oscar\Lib\site-packages\django\forms\formsets.py:484
+#: .\oscar\Lib\site-packages\django\forms\formsets.py:491
+msgid "Order"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\forms\formsets.py:499
+msgid "Delete"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\forms\models.py:886
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\forms\models.py:891
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\forms\models.py:898
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\forms\models.py:907
+msgid "Please correct the duplicate values below."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\forms\models.py:1338
+msgid "The inline value did not match the parent instance."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\forms\models.py:1429
+msgid "Select a valid choice. That choice is not one of the available choices."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\forms\models.py:1568
+#, python-format
+msgid "“%(pk)s” is not a valid value."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\forms\utils.py:226
+#, python-format
+msgid ""
+"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\forms\widgets.py:463
+msgid "Clear"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\forms\widgets.py:464
+msgid "Currently"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\forms\widgets.py:465
+msgid "Change"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\forms\widgets.py:794
+msgid "Unknown"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\forms\widgets.py:795
+#: .\oscar\Lib\site-packages\telepath\tests.py:243
+msgid "Yes"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\forms\widgets.py:796
+msgid "No"
+msgstr ""
+
+#. Translators: Please do not add spaces around commas.
+#: .\oscar\Lib\site-packages\django\template\defaultfilters.py:861
+msgid "yes,no,maybe"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\template\defaultfilters.py:891
+#: .\oscar\Lib\site-packages\django\template\defaultfilters.py:908
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\oscar\Lib\site-packages\django\template\defaultfilters.py:910
+#, python-format
+msgid "%s KB"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\template\defaultfilters.py:912
+#, python-format
+msgid "%s MB"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\template\defaultfilters.py:914
+#, python-format
+msgid "%s GB"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\template\defaultfilters.py:916
+#, python-format
+msgid "%s TB"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\template\defaultfilters.py:918
+#, python-format
+msgid "%s PB"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dateformat.py:73
+msgid "p.m."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dateformat.py:74
+msgid "a.m."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dateformat.py:79
+msgid "PM"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dateformat.py:80
+msgid "AM"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dateformat.py:152
+msgid "midnight"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dateformat.py:154
+msgid "noon"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:7
+#: .\oscar\Lib\site-packages\extra_views\dates.py:18
+msgid "Monday"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:8
+#: .\oscar\Lib\site-packages\extra_views\dates.py:19
+msgid "Tuesday"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:9
+#: .\oscar\Lib\site-packages\extra_views\dates.py:20
+msgid "Wednesday"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:10
+#: .\oscar\Lib\site-packages\extra_views\dates.py:21
+msgid "Thursday"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:11
+#: .\oscar\Lib\site-packages\extra_views\dates.py:22
+msgid "Friday"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:12
+#: .\oscar\Lib\site-packages\extra_views\dates.py:23
+msgid "Saturday"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:13
+#: .\oscar\Lib\site-packages\extra_views\dates.py:24
+msgid "Sunday"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:16
+msgid "Mon"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:17
+msgid "Tue"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:18
+msgid "Wed"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:19
+msgid "Thu"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:20
+msgid "Fri"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:21
+msgid "Sat"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:22
+msgid "Sun"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:25
+msgid "January"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:26
+msgid "February"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:27
+msgid "March"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:28
+msgid "April"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:29
+msgid "May"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:30
+msgid "June"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:31
+msgid "July"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:32
+msgid "August"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:33
+msgid "September"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:34
+msgid "October"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:35
+msgid "November"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:36
+msgid "December"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:39
+msgid "jan"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:40
+msgid "feb"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:41
+msgid "mar"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:42
+msgid "apr"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:43
+msgid "may"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:44
+msgid "jun"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:45
+msgid "jul"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:46
+msgid "aug"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:47
+msgid "sep"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:48
+msgid "oct"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:49
+msgid "nov"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:50
+msgid "dec"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:53
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:54
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:55
+msgctxt "abbrev. month"
+msgid "March"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:56
+msgctxt "abbrev. month"
+msgid "April"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:57
+msgctxt "abbrev. month"
+msgid "May"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:58
+msgctxt "abbrev. month"
+msgid "June"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:59
+msgctxt "abbrev. month"
+msgid "July"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:60
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:61
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:62
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:63
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:64
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:67
+msgctxt "alt. month"
+msgid "January"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:68
+msgctxt "alt. month"
+msgid "February"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:69
+msgctxt "alt. month"
+msgid "March"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:70
+msgctxt "alt. month"
+msgid "April"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:71
+msgctxt "alt. month"
+msgid "May"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:72
+msgctxt "alt. month"
+msgid "June"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:73
+msgctxt "alt. month"
+msgid "July"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:74
+msgctxt "alt. month"
+msgid "August"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:75
+msgctxt "alt. month"
+msgid "September"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:76
+msgctxt "alt. month"
+msgid "October"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:77
+msgctxt "alt. month"
+msgid "November"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\dates.py:78
+msgctxt "alt. month"
+msgid "December"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\ipv6.py:8
+msgid "This is not a valid IPv6 address."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\text.py:137
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s…"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\text.py:322
+msgid "or"
+msgstr ""
+
+#. Translators: This string is used as a separator between list elements
+#: .\oscar\Lib\site-packages\django\utils\text.py:341
+#: .\oscar\Lib\site-packages\django\utils\timesince.py:135
+msgid ", "
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\utils\timesince.py:8
+#, python-format
+msgid "%(num)d year"
+msgid_plural "%(num)d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\oscar\Lib\site-packages\django\utils\timesince.py:9
+#, python-format
+msgid "%(num)d month"
+msgid_plural "%(num)d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\oscar\Lib\site-packages\django\utils\timesince.py:10
+#, python-format
+msgid "%(num)d week"
+msgid_plural "%(num)d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\oscar\Lib\site-packages\django\utils\timesince.py:11
+#, python-format
+msgid "%(num)d day"
+msgid_plural "%(num)d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\oscar\Lib\site-packages\django\utils\timesince.py:12
+#, python-format
+msgid "%(num)d hour"
+msgid_plural "%(num)d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\oscar\Lib\site-packages\django\utils\timesince.py:13
+#, python-format
+msgid "%(num)d minute"
+msgid_plural "%(num)d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\oscar\Lib\site-packages\django\views\csrf.py:111
+msgid "Forbidden"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\views\csrf.py:112
+msgid "CSRF verification failed. Request aborted."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\views\csrf.py:116
+msgid ""
+"You are seeing this message because this HTTPS site requires a “Referer "
+"header” to be sent by your web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\views\csrf.py:122
+msgid ""
+"If you have configured your browser to disable “Referer” headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for “same-"
+"origin” requests."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\views\csrf.py:127
+msgid ""
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
+"including the “Referrer-Policy: no-referrer” header, please remove them. The "
+"CSRF protection requires the “Referer” header to do strict referer checking. "
+"If you’re concerned about privacy, use alternatives like <a rel=\"noreferrer"
+"\" …> for links to third-party sites."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\views\csrf.py:136
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\views\csrf.py:142
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for “same-origin” requests."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\views\csrf.py:148
+msgid "More information is available with DEBUG=True."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\views\generic\dates.py:44
+msgid "No year specified"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\views\generic\dates.py:64
+#: .\oscar\Lib\site-packages\django\views\generic\dates.py:115
+#: .\oscar\Lib\site-packages\django\views\generic\dates.py:214
+msgid "Date out of range"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\views\generic\dates.py:94
+msgid "No month specified"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\views\generic\dates.py:147
+msgid "No day specified"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\views\generic\dates.py:194
+msgid "No week specified"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\views\generic\dates.py:349
+#: .\oscar\Lib\site-packages\django\views\generic\dates.py:380
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\views\generic\dates.py:652
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because %(class_name)s."
+"allow_future is False."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\views\generic\dates.py:692
+#, python-format
+msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\views\generic\detail.py:56
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\views\generic\list.py:70
+msgid "Page is not “last”, nor can it be converted to an int."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\views\generic\list.py:77
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\views\generic\list.py:169
+#, python-format
+msgid "Empty list and “%(class_name)s.allow_empty” is False."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\views\static.py:38
+msgid "Directory indexes are not allowed here."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\views\static.py:40
+#, python-format
+msgid "“%(path)s” does not exist"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\views\static.py:79
+#, python-format
+msgid "Index of %(directory)s"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\views\templates\default_urlconf.html:7
+#: .\oscar\Lib\site-packages\django\views\templates\default_urlconf.html:220
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\views\templates\default_urlconf.html:206
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\views\templates\default_urlconf.html:221
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
+"\">DEBUG=True</a> is in your settings file and you have not configured any "
+"URLs."
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\views\templates\default_urlconf.html:229
+msgid "Django Documentation"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\views\templates\default_urlconf.html:230
+msgid "Topics, references, &amp; how-to’s"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\views\templates\default_urlconf.html:238
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\views\templates\default_urlconf.html:239
+msgid "Get started with Django"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\views\templates\default_urlconf.html:247
+msgid "Django Community"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\django\views\templates\default_urlconf.html:248
+msgid "Connect, get help, or contribute"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\haystack\admin.py:124
+#, python-format
+msgid "0 of %(count)d selected"
+msgid_plural "of %(count)d selected"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\oscar\Lib\site-packages\haystack\admin.py:129
+#, python-format
+msgid "%(total_count)s selected"
+msgid_plural "All %(total_count)s selected"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\oscar\Lib\site-packages\haystack\forms.py:24
+msgid "Search"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\haystack\forms.py:102
+msgid "Search In"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\haystack\panels.py:28
+msgid "Haystack"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\haystack\panels.py:52
+msgid "Search Queries"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\haystack\templates\panels\haystack.html:5
+msgid "Query"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\haystack\templates\panels\haystack.html:6
+msgid "Backend Alias"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\haystack\templates\panels\haystack.html:7
+msgid "Timeline"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\haystack\templates\panels\haystack.html:9
+msgid "Kwargs"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\kombu\transport\qpid.py:1311
+#, python-format
+msgid "Attempting to connect to qpid with SASL mechanism %s"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\kombu\transport\qpid.py:1316
+#, python-format
+msgid "Connected to qpid with SASL mechanism %s"
+msgstr ""
+
+#: .\oscar\Lib\site-packages\kombu\transport\qpid.py:1334
+#, python-format
+msgid "Unable to connect to qpid with SASL mechanism %s"
+msgstr ""
+
+#: .\redpart\settings\base.py:267
+msgid "PRODUCT TYPES"
+msgstr ""
+
+#: .\redpart\settings\base.py:270
+msgid "T-shirt"
+msgstr ""
+
+#: .\redpart\settings\base.py:274
+msgid "RATINGS"
+msgstr ""
+
+#: .\redpart\settings\base.py:277
+msgid "1"
+msgstr ""
+
+#: .\redpart\settings\base.py:278
+msgid "2"
+msgstr ""
+
+#: .\redpart\settings\base.py:279
+msgid "3"
+msgstr ""
+
+#: .\redpart\settings\base.py:280
+msgid "4"
+msgstr ""
+
+#: .\redpart\settings\base.py:281
+msgid "5"
+msgstr ""
+
+#: .\redpart\settings\base.py:285
+msgid "PRICE RANGE"
+msgstr "Ценовой диапазон"
+
+#: .\redpart\settings\base.py:288
+msgid "0 to 20"
+msgstr ""
+
+#: .\redpart\settings\base.py:289
+msgid "20 to 40"
+msgstr ""
+
+#: .\redpart\settings\base.py:290
+msgid "40 to 60"
+msgstr ""
+
+#: .\redpart\settings\base.py:291
+msgid "60+"
+msgstr ""
+
+#: .\redpart\settings\base.py:295
+msgid "COLOR"
+msgstr "цвет"
+
+#: .\redpart\settings\base.py:298
+msgid "Green"
+msgstr "Зеленый"
+
+#: .\redpart\settings\base.py:299
+msgid "Grey"
+msgstr "Серый"
+
+#: .\redpart\settings\base.py:300
+msgid "Blue"
+msgstr "Синий"
+
+#: .\redpart\settings\base.py:301
+msgid "Black"
+msgstr "Черный"
+
+#: .\redpart\settings\base.py:302
+msgid "Yellow"
+msgstr "Желтый"
+
+#: .\redpart\settings\base.py:303
+msgid "Red"
+msgstr "Красный"
+
+#: .\redpart\settings\base.py:304
+msgid "White"
+msgstr ""
+
+#: .\redpart\templates\components\site__header.html:29
+msgid "Language"
+msgstr ""
+
+#: .\redpart\templates\oscar\catalogue\browse.html:19
+msgid "Home"
+msgstr "Главная"
+
+#: .\redpart\templates\oscar\catalogue\browse.html:21
+msgid "Breadcrumb"
+msgstr "Навигация"
+
+#: .\redpart\templates\oscar\catalogue\browse.html:23
+msgid "Current Page"
+msgstr "Текущая страница"
+
+#: .\redpart\templates\oscar\catalogue\browse.html:55
+#: .\redpart\templates\oscar\catalogue\categories.html:9
+#: .\redpart\templates\oscar\catalogue\categories.html:20
+msgid "Filters"
+msgstr "Фильтры"
+
+#: .\redpart\templates\oscar\catalogue\browse.html:91
+msgid "Sort by"
+msgstr "Сортировать по"
+
+#: .\redpart\templates\oscar\catalogue\browse.html:105
+msgid "Show:"
+msgstr "Показать:"
+
+#: .\redpart\templates\oscar\catalogue\browse.html:128
+msgid "Active Filters"
+msgstr "Активные фильтры"
+
+#: .\redpart\templates\oscar\catalogue\browse.html:162
+msgid "SKU"
+msgstr "Артикул"
+
+#: .\redpart\templates\oscar\catalogue\browse.html:163
+msgid "Product"
+msgstr "Продукт"
+
+#: .\redpart\templates\oscar\catalogue\browse.html:165
+#: .\redpart\templates\oscar\search\partials\facet.html:98
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: .\redpart\templates\oscar\catalogue\browse.html:167
+msgid "Price"
+msgstr "Цена"
+
+#: .\redpart\templates\oscar\catalogue\categories.html:25
+msgid "Categories"
+msgstr "Категории"
+
+#: .\redpart\templates\oscar\catalogue\categories.html:75
+msgid "Latest Products"
+msgstr "Последние продукты"
+
+#: .\redpart\templates\oscar\search\partials\facet.html:4
+msgid "Product Type"
+msgstr "Продукт"
+
+#: .\redpart\templates\oscar\search\partials\facet.html:51
+msgid "Price Range"
+msgstr "Ценовой диапазон"
+
+#: .\redpart\templates\oscar\search\partials\facet.html:312
+msgid "Color"
+msgstr "цвет"
