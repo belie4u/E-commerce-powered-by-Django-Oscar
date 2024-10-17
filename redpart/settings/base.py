@@ -260,16 +260,12 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 
 OSCAR_SEARCH_FACETS = {
-    "fields":{},
+    "fields":{
+        "product_class": {"name":_("Type"), "field": "product_class"},
+    },
 
     "queries":{
-        "product_class":{
-            "name":_("PRODUCT TYPES"),
-            "field":"product_class",
-            "queries":[
-                (_("T-shirt"), "T-shirt")
-            ]
-        },
+        
         "rating":{
             "name":_("RATINGS"),
             "field":"rating",
@@ -312,6 +308,130 @@ OSCAR_SEARCH_FACETS = {
 
 
 OSCAR_DEFAULT_CURRENCY = 'GBP'
-OSCAR_CURRENCIES = ('CZK', 'EUR', 'HUF', 'RON', 'USD', 'GBP', 'RUB')
+OSCAR_CURRENCIES = ('GBP','CZK', 'EUR', 'HUF', 'RON', 'USD',  'RUB')
 
+
+# Menu structure of the dashboard navigation
+OSCAR_DASHBOARD_NAVIGATION = [
+    {
+        "label": _("Dashboard"),
+        "icon": "fas fa-list",
+        "url_name": "dashboard:index",
+    },
+    {
+        "label": _("Catalogue"),
+        "icon": "fas fa-sitemap",
+        "children": [
+            {
+                "label": _("Products"),
+                "url_name": "dashboard:catalogue-product-list",
+            },
+            {
+                "label": _("Attribute option group"),
+                "url_name": "dashboard:catalogue-attribute-option-group-list",
+            },
+            {
+                "label": _("Product Types"),
+                "url_name": "dashboard:catalogue-class-list",
+            },
+            {
+                "label": _("Categories"),
+                "url_name": "dashboard:catalogue-category-list",
+            },
+            {
+                "label": _("Ranges"),
+                "url_name": "dashboard:range-list",
+            },
+            {
+                "label": _("Low stock alerts"),
+                "url_name": "dashboard:stock-alert-list",
+            },
+            {
+                "label": _("Options"),
+                "url_name": "dashboard:catalogue-option-list",
+            },
+        ],
+    },
+    {
+        "label": _("Fulfilment"),
+        "icon": "fas fa-shopping-cart",
+        "children": [
+            {
+                "label": _("Orders"),
+                "url_name": "dashboard:order-list",
+            },
+            {
+                "label": _("Statistics"),
+                "url_name": "dashboard:order-stats",
+            },
+            {
+                "label": _("Partners"),
+                "url_name": "dashboard:partner-list",
+            },
+            # The shipping method dashboard is disabled by default as it might
+            # be confusing. Weight-based shipping methods aren't hooked into
+            # the shipping repository by default (as it would make
+            # customising the repository slightly more difficult).
+            # {
+            #     'label': _('Shipping charges'),
+            #     'url_name': 'dashboard:shipping-method-list',
+            # },
+        ],
+    },
+    {
+        "label": _("Customers"),
+        "icon": "fas fa-users",
+        "children": [
+            {
+                "label": _("Customers"),
+                "url_name": "dashboard:users-index",
+            },
+            {
+                "label": _("Stock alert requests"),
+                "url_name": "dashboard:user-alert-list",
+            },
+        ],
+    },
+    {
+        "label": _("Offers"),
+        "icon": "fas fa-bullhorn",
+        "children": [
+            {
+                "label": _("Offers"),
+                "url_name": "dashboard:offer-list",
+            },
+            {
+                "label": _("Vouchers"),
+                "url_name": "dashboard:voucher-list",
+            },
+            {
+                "label": _("Voucher Sets"),
+                "url_name": "dashboard:voucher-set-list",
+            },
+        ],
+    },
+    {
+        "label": _("Content"),
+        "icon": "fas fa-folder",
+        "children": [
+            {
+                "label": _("Pages"),
+                "url_name": "dashboard:page-list",
+            },
+            {
+                "label": _("Email templates"),
+                "url_name": "dashboard:comms-list",
+            },
+            {
+                "label": _("Reviews"),
+                "url_name": "dashboard:reviews-list",
+            },
+        ],
+    },
+    {
+        "label": _("Reports"),
+        "icon": "fas fa-chart-bar",
+        "url_name": "dashboard:reports-index",
+    },
+]
 

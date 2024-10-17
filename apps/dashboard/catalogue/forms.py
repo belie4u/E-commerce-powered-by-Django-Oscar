@@ -25,6 +25,7 @@ class ProductForm(base_forms.ProductForm):
         )
 
 
+class AttributeOptionForm(base_forms.AttributeOptionForm):
+    class Meta(base_forms.AttributeOptionForm.Meta):
+        fields = ("option", "icon")
 
-class StockRecordForm(CoreStockRecordForm):
-    price_currency = forms.ChoiceField(choices=CURRENCY_CHOICES)
