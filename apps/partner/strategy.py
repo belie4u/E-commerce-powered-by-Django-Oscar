@@ -72,11 +72,15 @@ class Default(CoreDefault, IncludingVAT):
         if children_stock:
             stockrecord = children_stock[0][1]
             currency = self.get_currency()
+            default_excl_tax = D('0.00')
+            default_currency = settings.OSCAR_DEFAULT_CURRENCY
+            excl_tax = getattr(prices, 'excl_tax', default_excl_tax)
+            price_currency = getattr(prices, 'currency', default_currency)
             if currency == stockrecord.price_currency:
-                tax = (prices.excl_tax * IncludingVAT.rate).quantize(D('0.01'))
+                tax = (excl_tax * IncludingVAT.rate).quantize(D('0.01'))
                 return TaxInclusiveFixedPrice(
-                    currency= prices.currency,
-                    excl_tax = prices.excl_tax,
+                    currency=price_currency,
+                    excl_tax = excl_tax,
                     tax = tax
                 )
             price = self.convert_currency(stockrecord, prices)

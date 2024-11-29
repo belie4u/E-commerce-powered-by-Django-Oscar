@@ -1,0 +1,128 @@
+{% load widget_tweaks %}
+{% if field.is_hidden %}
+{{ field }}
+{% else %}
+<div class="product-form product__form">
+    <div class="product-form__body">
+
+        
+
+        
+        
+        <div class="product-form__row">
+
+            {% for av in basket_form.product.get_attribute_values %}
+            {% if av.attribute.variants == 'colors' and av.attribute.type == 'multi_option'%}
+            <div class="product-form__title">{{av.attribute.name}}</div>
+            <div class="product-form__control">
+                <div class="input-radio-color">
+                    <div class="input-radio-color__list">
+                        {% for value in av.value %}
+                        <label class="input-radio-color__item input-radio-color__item--{{value.option}}" style="color: {{value.option}};"
+                            data-toggle="tooltip" title="{{value.option}}">
+                            <input type="radio" name="{{av.attribute.product_class_option_names|slugify}}" id="id_{{value.option|slugify}}_{{forloop.counter0}}" value="{{value.option}}">
+                            <span></span>
+                        </label>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            {% elif av.attribute.variants == 'materials' and av.attribute.type == 'multi_option'%}
+            <div class="product-form__title">{{av.attribute.name}}</div>
+            <div class="product-form__control">
+                <div class="input-radio-color">
+                    <div class="input-radio-color__list">
+                        {% for value in av.value %}
+                        <label class="input-radio-label__item">
+                            <input 
+                            type="checkbox" 
+                            value="{{value.option}}" 
+                            name="{{av.attribute.product_class_option_names|slugify}}" id="id_{{value.option|slugify}}_{{forloop.counter0}}" 
+                            class="input-radio-label__input">
+                            <span class="input-radio-label__title">{{value.option}}</span>
+                        
+                        </label>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+
+
+            {% for option in product.options.all %}
+            {% if not option.is_a_variable_option %}
+            {% if option.type == 'multi_select' %}
+            <div class="product-form__title">{{ option.name }}</div>
+            <div class="product-form__control">
+                <div class="input-radio-label">
+                    <div class="input-radio-label__list">
+                        {% for option_value, _ in option.get_choices %}
+                        <label class="input-radio-label__item">
+                        <input type="checkbox" value="{{option_value}}" name="{{option.name|slugify}}" id="id_{{option_value|slugify}}_{{forloop.counter0}}" class="input-radio-label__input"> 
+                                
+                        <span class="input-radio-label__title">{{option_value}}</span>
+                                
+                        </label>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            <br>
+            {% elif option.type == 'radio' %}
+            <div class="product-form__title">{{ option.name }}</div>
+            <div class="product-form__control">
+                <div class="input-radio-label">
+                    <div class="input-radio-label__list">
+                        {% for option_value, _ in option.get_choices %}
+                        <label class="input-radio-label__item">
+                        <input type="radio" value="{{option_value}}" name="{{option.name|slugify}}" id="id_{{option_value|slugify}}_{{forloop.counter0}}" class="input-radio-label__input"> 
+                                
+                        <span class="input-radio-label__title">{{option_value}}</span>
+                                
+                        </label>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            <br>
+            {% elif option.type == 'select' %}
+            <div class="product-form__title">{{ option.name }}</div>
+            <div class="product-form__control">
+                <div class="form-group">
+                    <select id="id_{{option.name}}" name="{{option.name|slugify}}" class="form-control form-control-lg">
+                        {% for option_value, display_value in option.get_choices %}
+                        <option value="{{option_value}}">{{display_value }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+            {% endif %}
+            {% endif %}
+
+            {% endfor %}
+
+
+        </div>
+        <!-- <div class="product-form__row">
+            <div class="product-form__title">Color</div>
+            <div class="product-form__control">
+                <div class="input-radio-color">
+                    <div class="input-radio-color__list"><label
+                            class="input-radio-color__item input-radio-color__item--white" style="color: #fff;"
+                            data-toggle="tooltip" title="White"><input type="radio" name="color">
+                            <span></span></label> <label class="input-radio-color__item" style="color: #ffd333;"
+                            data-toggle="tooltip" title="Yellow"><input type="radio" name="color">
+                            <span></span></label> <label class="input-radio-color__item" style="color: #ff4040;"
+                            data-toggle="tooltip" title="Red"><input type="radio" name="color">
+                            <span></span></label> <label
+                            class="input-radio-color__item input-radio-color__item--disabled" style="color: #4080ff;"
+                            data-toggle="tooltip" title="Blue"><input type="radio" name="color" disabled="disabled">
+                            <span></span></label>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+</div>
+{% endif %}

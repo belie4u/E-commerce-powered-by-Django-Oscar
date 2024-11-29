@@ -112,19 +112,27 @@
                                             {% endif %}
                                         </div>
                                     </div>
+
+                                    {% purchase_info_for_product request product as session %}
+
+                                    
                                     <div class="product__info">
                                         <div class="product__info-card">
                                             <div class="product__info-body">
+                                                {% if session.price.exists and not product.is_parent  %}
                                                 <div class="product__badge tag-badge tag-badge--sale">Sale</div>
                                                 <div class="product__prices-stock">
+
+
+                                                    
                                                     <div class="product__prices">
-                                                        <div class="product__price product__price--current">$1,499.00
+                                                        <div class="product__price product__price--current">{{ session.price.excl_tax|currency:session.price.currency}}
                                                         </div>
                                                     </div>
                                                     <div
                                                         class="status-badge status-badge--style--success product__stock status-badge--has-text">
                                                         <div class="status-badge__body">
-                                                            <div class="status-badge__text">In Stock</div>
+                                                            <div class="status-badge__text">{{ session.availability.message }}</div>
                                                             <div class="status-badge__tooltip" tabindex="0"
                                                                 data-toggle="tooltip" title="In&#x20;Stock"></div>
                                                         </div>
@@ -132,112 +140,73 @@
                                                 </div>
                                                 <div class="product__meta">
                                                     <table>
+                                                        {% if session.price.is_tax_known %}
+                                                        <tr>
+                                                            <th>{% trans "price(incl tax)"%}</th>
+                                                            <td>{{ session.price.incl_tax|currency:session.price.currency}}</td>
+                                                        </tr>
+                                                        
+                                                        <tr>
+                                                            <th>{% trans "Tax"%}</th>
+                                                            <td><a href="">{{ session.price.tax|currency:session.price.currency}}</a></td>
+                                                        </tr>
+                                                        {% endif %}
+                                                        
+                                                        
+                                                    </table>
+                                                </div>
+                                                {% endif %}
+                                                <br>
+                                                {% get_stock_record product as stock_record  %}
+                                                
+                                                <div class="product__meta">
+                                                    <table>
+                                                        {% if stock_record %}
                                                         <tr>
                                                             <th>SKU</th>
-                                                            <td>201902-0057</td>
+                                                            <td>{{ stock_record.sku}}</td>
                                                         </tr>
                                                         <tr>
                                                             <th>Brand</th>
-                                                            <td><a href="">Brandix</a></td>
+                                                            <td><a href="">{{ stock_record.partner}}</a></td>
                                                         </tr>
+                                                        {% endif %}
+
+                                                        {% if product.upc %}
                                                         <tr>
-                                                            <th>Country</th>
-                                                            <td>Japan</td>
+                                                            <th>{% trans "UPC"%}</th>
+                                                            <td>{{ product.upc }}</td>
                                                         </tr>
+                                                        {% endif %}
                                                         <tr>
-                                                            <th>Vendor code</th>
-                                                            <td>BDX-750Z370-S</td>
+                                                            <th>{% trans "PRODUCT TYPE "%}</th>
+                                                            <td>{{ product.get_product_class.name }}</td>
                                                         </tr>
                                                     </table>
                                                 </div>
                                             </div>
-                                            <div class="product-form product__form">
-                                                <div class="product-form__body">
-                                                    <div class="product-form__row">
-                                                        <div class="product-form__title">Material</div>
-                                                        <div class="product-form__control">
-                                                            <div class="input-radio-label">
-                                                                <div class="input-radio-label__list"><label
-                                                                        class="input-radio-label__item"><input
-                                                                            type="radio" name="material"
-                                                                            class="input-radio-label__input"> <span
-                                                                            class="input-radio-label__title">Steel</span></label>
-                                                                    <label class="input-radio-label__item"><input
-                                                                            type="radio" name="material"
-                                                                            class="input-radio-label__input"> <span
-                                                                            class="input-radio-label__title">Aluminium</span></label>
-                                                                    <label class="input-radio-label__item"><input
-                                                                            type="radio" name="material"
-                                                                            class="input-radio-label__input"
-                                                                            disabled="disabled"> <span
-                                                                            class="input-radio-label__title">Thorium</span></label>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="product-form__row">
-                                                        <div class="product-form__title">Color</div>
-                                                        <div class="product-form__control">
-                                                            <div class="input-radio-color">
-                                                                <div class="input-radio-color__list"><label
-                                                                        class="input-radio-color__item input-radio-color__item--white"
-                                                                        style="color: #fff;" data-toggle="tooltip"
-                                                                        title="White"><input type="radio" name="color">
-                                                                        <span></span></label> <label
-                                                                        class="input-radio-color__item"
-                                                                        style="color: #ffd333;" data-toggle="tooltip"
-                                                                        title="Yellow"><input type="radio" name="color">
-                                                                        <span></span></label> <label
-                                                                        class="input-radio-color__item"
-                                                                        style="color: #ff4040;" data-toggle="tooltip"
-                                                                        title="Red"><input type="radio" name="color">
-                                                                        <span></span></label> <label
-                                                                        class="input-radio-color__item input-radio-color__item--disabled"
-                                                                        style="color: #4080ff;" data-toggle="tooltip"
-                                                                        title="Blue"><input type="radio" name="color"
-                                                                            disabled="disabled"> <span></span></label>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product__actions">
-                                                <div class="product__actions-item product__actions-item--quantity">
-                                                    <div class="input-number"><input
-                                                            class="input-number__input form-control form-control-lg"
-                                                            type="number" min="1" value="1">
-                                                        <div class="input-number__add"></div>
-                                                        <div class="input-number__sub"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="product__actions-item product__actions-item--addtocart">
-                                                    <button class="btn btn-primary btn-lg btn-block">Add to
-                                                        cart</button>
-                                                </div>
-                                                <div class="product__actions-divider"></div><button
-                                                    class="product__actions-item product__actions-item--wishlist"
-                                                    type="button"><svg width="16" height="16">
-                                                        <path d="M13.9,8.4l-5.4,5.4c-0.3,0.3-0.7,0.3-1,0L2.1,8.4c-1.5-1.5-1.5-3.8,0-5.3C2.8,2.4,3.8,2,4.8,2s1.9,0.4,2.6,1.1L8,3.7
-	l0.6-0.6C9.3,2.4,10.3,2,11.3,2c1,0,1.9,0.4,2.6,1.1C15.4,4.6,15.4,6.9,13.9,8.4z" />
-                                                    </svg> <span>Add to wishlist</span></button> <button
-                                                    class="product__actions-item product__actions-item--compare"
-                                                    type="button"><svg width="16" height="16">
-                                                        <path
-                                                            d="M9,15H7c-0.6,0-1-0.4-1-1V2c0-0.6,0.4-1,1-1h2c0.6,0,1,0.4,1,1v12C10,14.6,9.6,15,9,15z" />
-                                                        <path
-                                                            d="M1,9h2c0.6,0,1,0.4,1,1v4c0,0.6-0.4,1-1,1H1c-0.6,0-1-0.4-1-1v-4C0,9.4,0.4,9,1,9z" />
-                                                        <path
-                                                            d="M15,5h-2c-0.6,0-1,0.4-1,1v8c0,0.6,0.4,1,1,1h2c0.6,0,1-0.4,1-1V6C16,5.4,15.6,5,15,5z" />
-                                                    </svg> <span>Add to compare</span></button>
-                                            </div>
+
+                                            <!-- options -->
+                                             {% if not product.is_parent %}
+                                             {% include "oscar/catalogue/partials/add_to_basket_form.html" %}
+                                             {% endif %}
+                                            
+                                            
                                             <div class="product__tags-and-share-links">
+
+                                                {% if product.is_parent %}
                                                 <div class="product__tags tags tags--sm">
-                                                    <div class="tags__list"><a href="">Brake Kit</a> <a
-                                                            href="">Brandix</a> <a href="">Filter</a> <a
-                                                            href="">Bumper</a> <a href="">Transmission</a> <a
-                                                            href="">Hood</a></div>
+                                                    <h4>{{ product.get_title }} {% trans 'Variants' %}</h4>
+                                                    <div class="tags__list">
+                                                        {% for child in product.children.public %}
+                                                        {% purchase_info_for_product request child as child_session %}
+                                                        {% if child_session.availability.is_available_to_buy %}
+                                                        <a href="{{child.get_absolute_url}}">{{child.get_title}}</a> 
+                                                        {% endif %}
+                                                        {% endfor %}
+                                                    </div>
                                                 </div>
+                                                {% endif %}
                                                 <div class="product__share-links share-links">
                                                     <ul class="share-links__list">
                                                         <li class="share-links__item share-links__item--type--like"><a
